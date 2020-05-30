@@ -13,3 +13,6 @@ class Reading(models.Model):
     meter_reading_value = models.CharField(max_length=20)
     reading_date_time = models.DateTimeField(verbose_name='Reading Date Time')
     file_name = models.CharField(max_length=200)
+
+class FileName(models.Model):
+    file_name = models.CharField(max_length=200)
