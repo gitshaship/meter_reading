@@ -1,5 +1,3 @@
-# tech_challenge_octopus
-
 Pre-requisities:
    * Python 3 installed
    * Django installed
